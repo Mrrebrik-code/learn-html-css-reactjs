@@ -6,22 +6,28 @@
         <title>Элемент Title</title>
         <meta name="description" content="Первый документ HTML">
         <meta name="author" content="Mrrebrik">
+        <style>
+            ul#menu li {
+                display:inline;
+            }
+        </style>
     </head>
     <body>
-        <p>Hello World - <mark>MARK</mark></p>
-        <p>Hello <b>World</b>!</p>
-        <p><del>Good bay</del> - <strong>Hello</strong> <mark>World</mark> ! <em><u>Evry van!</u></em></p>
-        <p>Привет<sub>Как ты?</sub><sup><small>Uoy</small></sup></p>
-        <div>
-            <img src="https://metanit.com/web/html5/pics/1.22.png" alt="Картинка сворованная с Metanit" style="float:left; margin: 10px;"/>
-            <h1>Lorem Ipsum</h1>
-            <b>Hello world</b> Hello worldHello worldHello worldHello worldHello worldHello worldHello worldHello world
-        </div>
-        <div>
-            <img src="https://metanit.com/web/html5/pics/1.22.png" alt="Картинка сворованная с Metanit" style="float:left; margin: 10px;"/>
-            <h1>Lorem Ipsum</h1>
-            <b>Hello world</b> Hello worldHello worldHello worldHello worldHello worldHello worldHello worldHello world
-        </div>
+        <details>
+            <summary>Здесь находится всякая шняга. Не следует это раскрывать!</summary>
+            <h1>Начал изучать списки HTML</h1>
+            <h4>Имеется два вида списков:</h4>
+            <ol style="list-style-type: lower-alpha;">
+                <li>Нумерованный список</li>
+                <li>
+                    Ненумерованный список:
+                    <ul id="menu">
+                        <li>С#</li>
+    
+                    </ul>
+                </li>
+            </ol> 
+        </details>
         
     </body>
 
