@@ -1,0 +1,64 @@
+nav{
+    width: 960px;
+    margin: 0 auto;
+    
+}
+
+nav:before{
+    content: '';
+    display: block;
+    height: 50px;
+    width: 943px;
+    background: #000;
+    position: absolute;
+    z-index: -1;
+    border-radius: 5px;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: 50px;
+    
+}
+ul li{
+   float: left;
+}
+
+ul li #button{
+    color: #fff;
+    display: block;
+    height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+    transition: 0.5s;
+}
+ul .menu-holder{
+    display: block;
+    height: 50px;
+    padding: 0 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 50px;
+    transition: 0.5s;
+    background: gray;
+    color: snow;
+    border-radius: 3px;
+}
+
+ul li .menu-button-hover:hover{
+    background: #d34d43;
+    transition: 0.5s;
+}
+p.menu-name{
+    text-align: center; 
+    background: #FF69B4; 
+    border-radius: 10px; 
+    margin: auto; 
+    width: 420px; 
+    color: aliceblue; 
+    padding: 0 30px;
+}
